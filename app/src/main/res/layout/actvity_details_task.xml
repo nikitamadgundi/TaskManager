@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:gravity="right|center"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgEditTask"
+            android:elevation="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:src="@drawable/baseline_edit_note_24"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+        <ImageView
+            android:id="@+id/imgDeleteNote"
+            android:elevation="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:src="@drawable/baseline_delete_forever_24"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/txtTaskTitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/txtDescription1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/txtTaskDueDate1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/txtTaskPriority1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+
+    <Button
+        android:layout_marginTop="32dp"
+        android:id="@+id/btnSaveTask"
+        android:text="Save"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</LinearLayout>
